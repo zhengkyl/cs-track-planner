@@ -1,0 +1,34 @@
+html, body{
+    height: 100%;
+    margin:0;
+}
+
+#right-div{
+    float: right;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#tracks-div{
+    flex: 2 1 auto;
+    padding: 16px;
+}
+
+#course-pool{
+    flex: 3 1 auto;
+    padding: 16px;
+}
+
+
+
+#left-div{
+    float: left;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
