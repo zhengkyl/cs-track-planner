@@ -1,0 +1,796 @@
+[
+	{
+		"id": "Software Engineering",
+		"Required": {
+			"num": 5,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 30700",
+							"title": "Software Engineering I"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 40800",
+							"title": "Software Testing"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 40700",
+							"title": "Software Engineering Senior Project"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						},
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				}
+			]
+		},
+		"Elective": {
+			"num": 1,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 30700",
+							"title": "Software Engineering I"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 40800",
+							"title": "Software Testing"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 40700",
+							"title": "Software Engineering Senior Project"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						},
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"id": "Computer Graphics and Visualization",
+		"Required": {
+			"num": 3,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 31400",
+							"title": "Numerical Methods"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 33400",
+							"title": "Fundamentals of Computer Graphics"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						},
+						{
+							"id": "CS 43400",
+							"title": "Advanced Computer Graphics"
+						},
+						{
+							"id": "CS 47100",
+							"title": "Introduction to Artificial Intelligence"
+						}
+					]
+				}
+			]
+		},
+		"Elective": {
+			"num": 3,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 31400",
+							"title": "Numerical Methods"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 33400",
+							"title": "Fundamentals of Computer Graphics"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						},
+						{
+							"id": "CS 43400",
+							"title": "Advanced Computer Graphics"
+						},
+						{
+							"id": "CS 47100",
+							"title": "Introduction to Artificial Intelligence"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"id": "Computational Science and Engineering",
+		"Required": {
+			"num": 5,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 31400",
+							"title": "Numerical Methods"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "Math 26600",
+							"title": "Ordinary Differential Equations"
+						},
+						{
+							"id": "Math 36600",
+							"title": "Ordinary Differential Equations"
+						}
+					]
+				},
+				{
+					"type": "Overflow",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						},
+						{
+							"id": "CS 47300",
+							"title": "Web Information Search and Management"
+						},
+						{
+							"id": "CS 47800",
+							"title": "Introduction to Bioinformatics"
+						},
+						{
+							"id": "IE 33600",
+							"title": "Operations Research - Stochastic Models"
+						},
+						{
+							"id": "ECE 30100",
+							"title": "Signals and Systems"
+						}
+					]
+				},
+				{
+					"type": "Overflow",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						},
+						{
+							"id": "CS 35300",
+							"title": "Principles of Concurrency and Parallelism"
+						},
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				}
+			]
+		},
+		"Elective": {
+			"num": 2,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 31400",
+							"title": "Numerical Methods"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "Math 26600",
+							"title": "Ordinary Differential Equations"
+						},
+						{
+							"id": "Math 36600",
+							"title": "Ordinary Differential Equations"
+						}
+					]
+				},
+				{
+					"type": "Overflow",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						},
+						{
+							"id": "CS 47300",
+							"title": "Web Information Search and Management"
+						},
+						{
+							"id": "CS 47800",
+							"title": "Introduction to Bioinformatics"
+						},
+						{
+							"id": "IE 33600",
+							"title": "Operations Research - Stochastic Models"
+						},
+						{
+							"id": "ECE 30100",
+							"title": "Signals and Systems"
+						}
+					]
+				},
+				{
+					"type": "Overflow",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						},
+						{
+							"id": "CS 35300",
+							"title": "Principles of Concurrency and Parallelism"
+						},
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"id": "Database and Information Systems",
+		"Required": {
+			"num": 4,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 34800",
+							"title": "Information Systems"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 44800",
+							"title": "Introduction to Relational Databases"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						},
+						{
+							"id": "CS 47300",
+							"title": "Web Information Search & Management"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"id": "Algorithmic Foundations",
+		"Required": {
+			"num": 3,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						},
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						},
+						{
+							"id": "CS 47100",
+							"title": "Introduction to Artificial Intelligence"
+						}
+					]
+				}
+			]
+		},
+		"Elective": {
+			"num": 3,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						},
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						},
+						{
+							"id": "CS 47100",
+							"title": "Introduction to Artificial Intelligence"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"id": "Machine Intelligence",
+		"Required": {
+			"num": 4,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "CS 47100",
+							"title": "Artificial Intelligence"
+						},
+						{
+							"id": "CS 47300",
+							"title": "Web Information Search & Management"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "STAT 41600",
+							"title": "Probability"
+						},
+						{
+							"id": "MA 41600",
+							"title": "Probability"
+						},
+						{
+							"id": "STAT 51200",
+							"title": "Applied Regression Analysis"
+						}
+					]
+				}
+			]
+		},
+		"Elective": {
+			"num": 2,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "CS 47100",
+							"title": "Artificial Intelligence"
+						},
+						{
+							"id": "CS 47300",
+							"title": "Web Information Search & Management"
+						}
+					]
+				},
+				{
+					"type": "Choose",
+					"courses": [
+						{
+							"id": "STAT 41600",
+							"title": "Probability"
+						},
+						{
+							"id": "MA 41600",
+							"title": "Probability"
+						},
+						{
+							"id": "STAT 51200",
+							"title": "Applied Regression Analysis"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"id": "Programming Language",
+		"Required": {
+			"num": 3,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 45600",
+							"title": "Programming Languages"
+						}
+					]
+				}
+			]
+		},
+		"Elective": {
+			"num": 3,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 45600",
+							"title": "Programming Languages"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"id": "Security",
+		"Required": {
+			"num": 3,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 35500",
+							"title": "Introduction to Cryptography"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 42600",
+							"title": "Computer Security"
+						}
+					]
+				}
+			]
+		},
+		"Elective": {
+			"num": 3,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 35500",
+							"title": "Introduction to Cryptography"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 42600",
+							"title": "Computer Security"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"id": "Systems Software",
+		"Required": {
+			"num": 3,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 42200",
+							"title": "Computer Networks"
+						}
+					]
+				}
+			]
+		},
+		"Elective": {
+			"num": 3,
+			"options": [
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				},
+				{
+					"type": "None",
+					"courses": [
+						{
+							"id": "CS 42200",
+							"title": "Computer Networks"
+						}
+					]
+				}
+			]
+		}
+	}
+]
