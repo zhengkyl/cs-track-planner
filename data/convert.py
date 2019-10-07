@@ -1,6 +1,6 @@
 # Input/Output
 CSV_FILE = "data.csv"
-JSON_FILE = "data.json"
+JSON_FILE = "data.js"
 
 # Keywords used in the csv file and json
 REQUIRED = "required"
@@ -21,22 +21,23 @@ ONE_COURSE = "none"
 COURSE_ID = "id"
 COURSE_TITLE = "title"
 
+
 def format_courseOption(type):
-    return '\t\t\t\t{\n\t\t\t\t\t"' + COURSE_OPTION_TYPE + '": "' + type + '",\n\t\t\t\t\t"'+COURSE_OPTION_COURSES+'": [\n'
+    return '\t\t\t\t{\n\t\t\t\t\t' + COURSE_OPTION_TYPE + ': "' + type + '",\n\t\t\t\t\t'+COURSE_OPTION_COURSES+': [\n'
 
 
 def format_course(id, title):
-    return '\t\t\t\t\t\t{\n\t\t\t\t\t\t\t"'+COURSE_ID+'": "' + id + '",\n\t\t\t\t\t\t\t"'+COURSE_TITLE+'": "' + title + '"\n\t\t\t\t\t\t}'
+    return '\t\t\t\t\t\t{\n\t\t\t\t\t\t\t'+COURSE_ID+': "' + id + '",\n\t\t\t\t\t\t\t'+COURSE_TITLE+': "' + title + '"\n\t\t\t\t\t\t}'
 
 
 def format_coursePool(type, row, rows):
     result = ''
     result += ",\n\t\t"
-    result += '"' + type + '": '
+    result += '' + type + ': '
 
     result += '{\n'
-    result += '\t\t\t"'+COURSES_NEEDED+'": ' + rows[row][i+1] + ',\n'
-    result += '\t\t\t"'+COURSE_OPTIONS_LIST+'": [\n'
+    result += '\t\t\t'+COURSES_NEEDED+': ' + rows[row][i+1] + ',\n'
+    result += '\t\t\t'+COURSE_OPTIONS_LIST+': [\n'
 
     group = False
     while True:
@@ -86,7 +87,7 @@ with open(JSON_FILE, "w+") as json:
     for i in range(0, len(rows[0]), 3):
         if i:
             json.write(",")
-        json.write('\n\t{\n\t\t"id": "' + rows[0][i] + '"')
+        json.write('\n\t{\n\t\t'+TRACK_ID+': "' + rows[0][i] + '"')
 
         row = 0
         while row < len(rows)-1:
