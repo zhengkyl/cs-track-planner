@@ -1,11 +1,11 @@
 [
 	{
 		"id": "Software Engineering",
-		"Required": {
+		"required": {
 			"num": 5,
 			"options": [
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 30700",
@@ -14,7 +14,7 @@
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 38100",
@@ -23,7 +23,7 @@
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 40800",
@@ -32,7 +32,7 @@
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 40700",
@@ -41,7 +41,7 @@
 					]
 				},
 				{
-					"type": "Choose",
+					"type": "choose",
 					"courses": [
 						{
 							"id": "CS 35200",
@@ -55,310 +55,11 @@
 				}
 			]
 		},
-		"Elective": {
+		"elective": {
 			"num": 1,
 			"options": [
 				{
-					"type": "None",
-					"courses": [
-						{
-							"id": "CS 30700",
-							"title": "Software Engineering I"
-						}
-					]
-				},
-				{
-					"type": "None",
-					"courses": [
-						{
-							"id": "CS 38100",
-							"title": "Introduction to the Analysis of Algorithms"
-						}
-					]
-				},
-				{
-					"type": "None",
-					"courses": [
-						{
-							"id": "CS 40800",
-							"title": "Software Testing"
-						}
-					]
-				},
-				{
-					"type": "None",
-					"courses": [
-						{
-							"id": "CS 40700",
-							"title": "Software Engineering Senior Project"
-						}
-					]
-				},
-				{
-					"type": "Choose",
-					"courses": [
-						{
-							"id": "CS 35200",
-							"title": "Compilers: Principles and Practice"
-						},
-						{
-							"id": "CS 35400",
-							"title": "Operating Systems"
-						}
-					]
-				}
-			]
-		}
-	},
-	{
-		"id": "Computer Graphics and Visualization",
-		"Required": {
-			"num": 3,
-			"options": [
-				{
-					"type": "None",
-					"courses": [
-						{
-							"id": "CS 31400",
-							"title": "Numerical Methods"
-						}
-					]
-				},
-				{
-					"type": "None",
-					"courses": [
-						{
-							"id": "CS 33400",
-							"title": "Fundamentals of Computer Graphics"
-						}
-					]
-				},
-				{
-					"type": "Choose",
-					"courses": [
-						{
-							"id": "CS 37300",
-							"title": "Data Mining and Machine Learning"
-						},
-						{
-							"id": "CS 43400",
-							"title": "Advanced Computer Graphics"
-						},
-						{
-							"id": "CS 47100",
-							"title": "Introduction to Artificial Intelligence"
-						}
-					]
-				}
-			]
-		},
-		"Elective": {
-			"num": 3,
-			"options": [
-				{
-					"type": "None",
-					"courses": [
-						{
-							"id": "CS 31400",
-							"title": "Numerical Methods"
-						}
-					]
-				},
-				{
-					"type": "None",
-					"courses": [
-						{
-							"id": "CS 33400",
-							"title": "Fundamentals of Computer Graphics"
-						}
-					]
-				},
-				{
-					"type": "Choose",
-					"courses": [
-						{
-							"id": "CS 37300",
-							"title": "Data Mining and Machine Learning"
-						},
-						{
-							"id": "CS 43400",
-							"title": "Advanced Computer Graphics"
-						},
-						{
-							"id": "CS 47100",
-							"title": "Introduction to Artificial Intelligence"
-						}
-					]
-				}
-			]
-		}
-	},
-	{
-		"id": "Computational Science and Engineering",
-		"Required": {
-			"num": 5,
-			"options": [
-				{
-					"type": "None",
-					"courses": [
-						{
-							"id": "CS 31400",
-							"title": "Numerical Methods"
-						}
-					]
-				},
-				{
-					"type": "None",
-					"courses": [
-						{
-							"id": "CS 38100",
-							"title": "Introduction to the Analysis of Algorithms"
-						}
-					]
-				},
-				{
-					"type": "Choose",
-					"courses": [
-						{
-							"id": "Math 26600",
-							"title": "Ordinary Differential Equations"
-						},
-						{
-							"id": "Math 36600",
-							"title": "Ordinary Differential Equations"
-						}
-					]
-				},
-				{
-					"type": "Overflow",
-					"courses": [
-						{
-							"id": "CS 37300",
-							"title": "Data Mining and Machine Learning"
-						},
-						{
-							"id": "CS 47300",
-							"title": "Web Information Search and Management"
-						},
-						{
-							"id": "CS 47800",
-							"title": "Introduction to Bioinformatics"
-						},
-						{
-							"id": "IE 33600",
-							"title": "Operations Research - Stochastic Models"
-						},
-						{
-							"id": "ECE 30100",
-							"title": "Signals and Systems"
-						}
-					]
-				},
-				{
-					"type": "Overflow",
-					"courses": [
-						{
-							"id": "CS 35200",
-							"title": "Compilers: Principles and Practice"
-						},
-						{
-							"id": "CS 35300",
-							"title": "Principles of Concurrency and Parallelism"
-						},
-						{
-							"id": "CS 35400",
-							"title": "Operating Systems"
-						}
-					]
-				}
-			]
-		},
-		"Elective": {
-			"num": 2,
-			"options": [
-				{
-					"type": "None",
-					"courses": [
-						{
-							"id": "CS 31400",
-							"title": "Numerical Methods"
-						}
-					]
-				},
-				{
-					"type": "None",
-					"courses": [
-						{
-							"id": "CS 38100",
-							"title": "Introduction to the Analysis of Algorithms"
-						}
-					]
-				},
-				{
-					"type": "Choose",
-					"courses": [
-						{
-							"id": "Math 26600",
-							"title": "Ordinary Differential Equations"
-						},
-						{
-							"id": "Math 36600",
-							"title": "Ordinary Differential Equations"
-						}
-					]
-				},
-				{
-					"type": "Overflow",
-					"courses": [
-						{
-							"id": "CS 37300",
-							"title": "Data Mining and Machine Learning"
-						},
-						{
-							"id": "CS 47300",
-							"title": "Web Information Search and Management"
-						},
-						{
-							"id": "CS 47800",
-							"title": "Introduction to Bioinformatics"
-						},
-						{
-							"id": "IE 33600",
-							"title": "Operations Research - Stochastic Models"
-						},
-						{
-							"id": "ECE 30100",
-							"title": "Signals and Systems"
-						}
-					]
-				},
-				{
-					"type": "Overflow",
-					"courses": [
-						{
-							"id": "CS 35200",
-							"title": "Compilers: Principles and Practice"
-						},
-						{
-							"id": "CS 35300",
-							"title": "Principles of Concurrency and Parallelism"
-						},
-						{
-							"id": "CS 35400",
-							"title": "Operating Systems"
-						}
-					]
-				}
-			]
-		}
-	},
-	{
-		"id": "Database and Information Systems",
-		"Required": {
-			"num": 4,
-			"options": [
-				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 34800",
@@ -367,7 +68,279 @@
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 35300",
+							"title": "Principles of Concurrency and Parallelism"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 42200",
+							"title": "Computer Networks"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 42600",
+							"title": "Computer Security"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 44800",
+							"title": "Introduction to Relational Database Systems"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 45600",
+							"title": "Programming Languages"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 47300",
+							"title": "Web Information Search And Management"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 49000-DSO",
+							"title": "Distributed Systems"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 48900",
+							"title": "Embedded Systems"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 49000-SWS",
+							"title": "Software Security"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 51000",
+							"title": "Software Engineering"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 59000-SRS",
+							"title": "Software Reliability and Security"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"id": "Computer Graphics and Visualization",
+		"required": {
+			"num": 3,
+			"options": [
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 31400",
+							"title": "Numerical Methods"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 33400",
+							"title": "Fundamentals of Computer Graphics"
+						}
+					]
+				},
+				{
+					"type": "choose",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						},
+						{
+							"id": "CS 43400",
+							"title": "Advanced Computer Graphics"
+						},
+						{
+							"id": "CS 47100",
+							"title": "Introduction to Artificial Intelligence"
+						}
+					]
+				}
+			]
+		},
+		"elective": {
+			"num": 3,
+			"options": [
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 38100",
+							"title": "Introduction to Analysis of Algorithms"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 42200",
+							"title": "Computer Networks"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 43400",
+							"title": "Advanced Computer Graphics"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 45600",
+							"title": "Programming Languages"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 47100",
+							"title": "Introduction to Artificial Intelligence"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 49000-IDV",
+							"title": "Introduction to Data Visualization"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"id": "Computational Science and Engineering",
+		"required": {
+			"num": 5,
+			"options": [
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 31400",
+							"title": "Numerical Methods"
+						}
+					]
+				},
+				{
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 38100",
@@ -376,7 +349,201 @@
 					]
 				},
 				{
-					"type": "None",
+					"type": "choose",
+					"courses": [
+						{
+							"id": "Math 26600",
+							"title": "Ordinary Differential Equations"
+						},
+						{
+							"id": "Math 36600",
+							"title": "Ordinary Differential Equations"
+						}
+					]
+				},
+				{
+					"type": "overflow",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						},
+						{
+							"id": "CS 47300",
+							"title": "Web Information Search and Management"
+						},
+						{
+							"id": "CS 47800",
+							"title": "Introduction to Bioinformatics"
+						},
+						{
+							"id": "IE 33600",
+							"title": "Operations Research - Stochastic Models"
+						},
+						{
+							"id": "ECE 30100",
+							"title": "Signals and Systems"
+						}
+					]
+				},
+				{
+					"type": "overflow",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
+						},
+						{
+							"id": "CS 35300",
+							"title": "Principles of Concurrency and Parallelism"
+						},
+						{
+							"id": "CS 35400",
+							"title": "Operating Systems"
+						}
+					]
+				}
+			]
+		},
+		"elective": {
+			"num": 2,
+			"options": [
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 30700",
+							"title": "Software Engineering I"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 42200",
+							"title": "Computer Networks"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 45600",
+							"title": "Programming Languages"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 47100",
+							"title": "Introduction to Artificial Intelligence"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 48300",
+							"title": "Introduction to the Theory of Computation"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 51400",
+							"title": "Numerical Analysis"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 51500",
+							"title": "Numerical Linear Algebra"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 52000",
+							"title": "Computational Methods In Optimization"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 52500",
+							"title": "Parallel Computing"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "IE 33500",
+							"title": "Operations Research - Optimization"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "MA 34100",
+							"title": "Foundations of Analysis"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "MA 44000",
+							"title": "Honors Real Analysis I"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"id": "Database and Information Systems",
+		"required": {
+			"num": 4,
+			"options": [
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 34800",
+							"title": "Information Systems"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
+						}
+					]
+				},
+				{
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 44800",
@@ -385,7 +552,7 @@
 					]
 				},
 				{
-					"type": "Choose",
+					"type": "choose",
 					"courses": [
 						{
 							"id": "CS 37300",
@@ -402,11 +569,11 @@
 	},
 	{
 		"id": "Algorithmic Foundations",
-		"Required": {
+		"required": {
 			"num": 3,
 			"options": [
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 38100",
@@ -415,7 +582,7 @@
 					]
 				},
 				{
-					"type": "Choose",
+					"type": "choose",
 					"courses": [
 						{
 							"id": "CS 35200",
@@ -428,7 +595,7 @@
 					]
 				},
 				{
-					"type": "Choose",
+					"type": "choose",
 					"courses": [
 						{
 							"id": "CS 37300",
@@ -442,41 +609,69 @@
 				}
 			]
 		},
-		"Elective": {
+		"elective": {
 			"num": 3,
 			"options": [
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 38100",
-							"title": "Introduction to the Analysis of Algorithms"
+							"id": "CS 31400",
+							"title": "Numerical Methods"
 						}
 					]
 				},
 				{
-					"type": "Choose",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 35200",
-							"title": "Compilers: Principles and Practice"
-						},
-						{
-							"id": "CS 35400",
-							"title": "Operating Systems"
+							"id": "CS 33400",
+							"title": "Fundamentals of Computer Graphics"
 						}
 					]
 				},
 				{
-					"type": "Choose",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 37300",
-							"title": "Data Mining and Machine Learning"
-						},
+							"id": "CS 35300",
+							"title": "Principles of Concurrency and Parallelism"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
 						{
-							"id": "CS 47100",
-							"title": "Introduction to Artificial Intelligence"
+							"id": "CS 35500",
+							"title": "Introduction to Cryptography"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 44800",
+							"title": "Introduction to Relational Database Systems"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 45600",
+							"title": "Programming Languages"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 48300",
+							"title": "Introduction to the Theory of Computation"
 						}
 					]
 				}
@@ -485,11 +680,11 @@
 	},
 	{
 		"id": "Machine Intelligence",
-		"Required": {
+		"required": {
 			"num": 4,
 			"options": [
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 37300",
@@ -498,7 +693,7 @@
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 38100",
@@ -507,7 +702,7 @@
 					]
 				},
 				{
-					"type": "Choose",
+					"type": "choose",
 					"courses": [
 						{
 							"id": "CS 47100",
@@ -520,7 +715,7 @@
 					]
 				},
 				{
-					"type": "Choose",
+					"type": "choose",
 					"courses": [
 						{
 							"id": "STAT 41600",
@@ -538,34 +733,66 @@
 				}
 			]
 		},
-		"Elective": {
+		"elective": {
 			"num": 2,
 			"options": [
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 37300",
-							"title": "Data Mining and Machine Learning"
+							"id": "CS 31400",
+							"title": "Numerical Methods"
 						}
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 38100",
-							"title": "Introduction to the Analysis of Algorithms"
+							"id": "CS 34800",
+							"title": "Information Systems"
 						}
 					]
 				},
 				{
-					"type": "Choose",
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 35200",
+							"title": "Compilers: Principles And Practice"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 44800",
+							"title": "Introduction To Relational Database Systems"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 45600",
+							"title": "Programming Languages"
+						}
+					]
+				},
+				{
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 47100",
-							"title": "Artificial Intelligence"
-						},
+							"title": "Introduction to Artificial Intelligence"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
 						{
 							"id": "CS 47300",
 							"title": "Web Information Search & Management"
@@ -573,19 +800,46 @@
 					]
 				},
 				{
-					"type": "Choose",
+					"type": "none",
 					"courses": [
 						{
-							"id": "STAT 41600",
-							"title": "Probability"
+							"id": "CS 48300",
+							"title": "Introduction To The Theory Of Computation"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 57700",
+							"title": "Natural Language Processing"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 57800",
+							"title": "Statistical Machine Learning"
+						}
+					]
+				},
+				{
+					"type": "choose",
+					"courses": [
+						{
+							"id": "CS 49000-HCI",
+							"title": "Human-Computer Interactions"
 						},
 						{
-							"id": "MA 41600",
-							"title": "Probability"
+							"id": "CS 49000-LDA",
+							"title": "Large-Scale Data Analysis"
 						},
 						{
-							"id": "STAT 51200",
-							"title": "Applied Regression Analysis"
+							"id": "CS 49000-IDV",
+							"title": "Introduction to Data Visualization"
 						}
 					]
 				}
@@ -594,11 +848,11 @@
 	},
 	{
 		"id": "Programming Language",
-		"Required": {
+		"required": {
 			"num": 3,
 			"options": [
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 35200",
@@ -607,7 +861,7 @@
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 35400",
@@ -616,7 +870,7 @@
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 45600",
@@ -626,33 +880,90 @@
 				}
 			]
 		},
-		"Elective": {
+		"elective": {
 			"num": 3,
 			"options": [
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 35200",
-							"title": "Compilers: Principles and Practice"
+							"id": "CS 35300",
+							"title": "Principles of Concurrency & Parallelism"
 						}
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 35400",
-							"title": "Operating Systems"
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
 						}
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 45600",
-							"title": "Programming Languages"
+							"id": "CS 42600",
+							"title": "Computer Security"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 48300",
+							"title": "Introduction to the Theory of Computation"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 56000",
+							"title": "Reasoning About Programs"
+						}
+					]
+				},
+				{
+					"type": "choose",
+					"courses": [
+						{
+							"id": "CS 30700",
+							"title": "Software Engineering I"
+						},
+						{
+							"id": "CS 40800",
+							"title": "Software Testing"
+						}
+					]
+				},
+				{
+					"type": "choose",
+					"courses": [
+						{
+							"id": "CS 34800",
+							"title": "Information Systems"
+						},
+						{
+							"id": "CS 44800",
+							"title": "Introduction to Relational Database Systems"
+						}
+					]
+				},
+				{
+					"type": "choose",
+					"courses": [
+						{
+							"id": "MA 38500",
+							"title": "Introduction to Logic"
+						},
+						{
+							"id": "MA 45300",
+							"title": "Elements of Algebra I"
 						}
 					]
 				}
@@ -661,11 +972,11 @@
 	},
 	{
 		"id": "Security",
-		"Required": {
+		"required": {
 			"num": 3,
 			"options": [
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 35400",
@@ -674,7 +985,7 @@
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 35500",
@@ -683,7 +994,7 @@
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 42600",
@@ -693,33 +1004,111 @@
 				}
 			]
 		},
-		"Elective": {
+		"elective": {
 			"num": 3,
 			"options": [
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 35400",
-							"title": "Operating Systems"
+							"id": "CS 35200",
+							"title": "Compilers: Principles and Practice"
 						}
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 35500",
-							"title": "Introduction to Cryptography"
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
 						}
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 42600",
-							"title": "Computer Security"
+							"id": "CS 42200",
+							"title": "Computer Networks"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 49000-SWS",
+							"title": "Software Security"
+						}
+					]
+				},
+				{
+					"type": "choose",
+					"courses": [
+						{
+							"id": "CS 30700",
+							"title": "Software Engineering I"
+						},
+						{
+							"id": "CS 40800",
+							"title": "Software Testing"
+						}
+					]
+				},
+				{
+					"type": "choose",
+					"courses": [
+						{
+							"id": "CS 34800",
+							"title": "Information Systems"
+						},
+						{
+							"id": "CS 44800",
+							"title": "Introduction to Relational Database Systems"
+						},
+						{
+							"id": "CS 47300",
+							"title": "Web Information Search and Management"
+						}
+					]
+				},
+				{
+					"type": "choose",
+					"courses": [
+						{
+							"id": "CS 35300",
+							"title": "Principles Of Concurrency And Parallelism"
+						},
+						{
+							"id": "CS 45600",
+							"title": "Programming Languages"
+						}
+					]
+				},
+				{
+					"type": "choose",
+					"courses": [
+						{
+							"id": "CS 37300",
+							"title": "Data Mining and Machine Learning"
+						},
+						{
+							"id": "CS 47100",
+							"title": "Introduction to Artificial Intelligence"
+						}
+					]
+				},
+				{
+					"type": "choose",
+					"courses": [
+						{
+							"id": "CS 48900",
+							"title": "Embedded Systems"
+						},
+						{
+							"id": "CS 49000-DSO",
+							"title": "Distributed Systems"
 						}
 					]
 				}
@@ -728,11 +1117,11 @@
 	},
 	{
 		"id": "Systems Software",
-		"Required": {
+		"required": {
 			"num": 3,
 			"options": [
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 35200",
@@ -741,7 +1130,7 @@
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 35400",
@@ -750,7 +1139,7 @@
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
 							"id": "CS 42200",
@@ -760,33 +1149,96 @@
 				}
 			]
 		},
-		"Elective": {
+		"elective": {
 			"num": 3,
 			"options": [
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 35200",
-							"title": "Compilers: Principles and Practice"
+							"id": "CS 30700",
+							"title": "Software Engineering I"
 						}
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 35400",
-							"title": "Operating Systems"
+							"id": "CS 33400",
+							"title": "Fundamentals of Computer Graphics"
 						}
 					]
 				},
 				{
-					"type": "None",
+					"type": "none",
 					"courses": [
 						{
-							"id": "CS 42200",
-							"title": "Computer Networks"
+							"id": "CS 35300",
+							"title": "Principles of Concurrency and Parallelism"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 38100",
+							"title": "Introduction to the Analysis of Algorithms"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 42600",
+							"title": "Computer Security"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 44800",
+							"title": "Introduction to Relational Database Systems"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 45600",
+							"title": "Programming Languages"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 48900",
+							"title": "Embedded Systems"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "CS 49000-DS0",
+							"title": "Distributed Systems"
+						}
+					]
+				},
+				{
+					"type": "none",
+					"courses": [
+						{
+							"id": "Senior Project",
+							"title": "Track Chair approval needed"
 						}
 					]
 				}
