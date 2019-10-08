@@ -5,7 +5,7 @@ html, body{
 
 #right-div{
     float: right;
-    width: 30%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -13,22 +13,56 @@ html, body{
 
 #tracks-div{
     flex: 2 1 auto;
-    padding: 16px;
+    margin: 4px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.track-column{
+    flex: 1;
+    background-color: aquamarine;
+    margin: 4px;
+    text-align: center;
+}
+
+.course-type-div{
+    border: 4px solid red;
+    margin: 4px;
+}
+
+.required-pool{
+    background-color: deepskyblue;
+}
+.elective-pool{
+    background-color: violet;
+}
+
+.choose-div{
+    border: 2px solid blue;
+    margin: 4px;
+    background-color: beige;
 }
 
 #course-pool{
     flex: 3 1 auto;
-    padding: 16px;
+    margin: 4px;
 }
-
-
 
 #left-div{
     float: left;
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
+.selected{
+    background-color: yellow;
+}
+
+.toggle{
+    width: 90%;
+    
+}
 
