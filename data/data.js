@@ -1,4 +1,4 @@
-[
+var tracks = [
 	{
 		id: "Software Engineering",
 		required: {
@@ -352,11 +352,11 @@
 					type: "choose",
 					courses: [
 						{
-							id: "Math 26600",
+							id: "MA 26600",
 							title: "Ordinary Differential Equations"
 						},
 						{
-							id: "Math 36600",
+							id: "MA 36600",
 							title: "Ordinary Differential Equations"
 						}
 					]
@@ -561,6 +561,86 @@
 						{
 							id: "CS 47300",
 							title: "Web Information Search & Management"
+						}
+					]
+				}
+			]
+		},
+		elective: {
+			num: 3,
+			options: [
+				{
+					type: "choose",
+					courses: [
+						{
+							id: "CS 35200",
+							title: "Compilers: Principles and Practice"
+						},
+						{
+							id: "CS 35300",
+							title: "Principles of Concurrency and Parallelism"
+						},
+						{
+							id: "CS 35400",
+							title: "Operating Systems"
+						}
+					]
+				},
+				{
+					type: "choose",
+					courses: [
+						{
+							id: "CS 35500",
+							title: "Introduction to Cryptography"
+						},
+						{
+							id: "CS 42600",
+							title: "Computer Security"
+						}
+					]
+				},
+				{
+					type: "choose",
+					courses: [
+						{
+							id: "CS 37300",
+							title: "Data Mining and Machine Learning"
+						},
+						{
+							id: "CS 42200",
+							title: "Computer Networks"
+						},
+						{
+							id: "CS 47100",
+							title: "Introduction to Artificial Intelligence"
+						},
+						{
+							id: "CS 47300",
+							title: "Web Information Search & Management"
+						},
+						{
+							id: "CS 47800",
+							title: "Introduction to Bioinformatics"
+						},
+						{
+							id: "CS 48300",
+							title: "Introduction to the Theory of Computation"
+						},
+						{
+							id: "CS 49000",
+							title: "Senior Project"
+						},
+						{
+							id: "CS 49700",
+							title: "Honors Research Project"
+						},
+						{
+							id: "EPICS 41100",
+							title: "Honors Research Project"
+						},
+						{
+							id: "EPICS 41200",
+							title: "Honors Research Project"
 						}
 					]
 				}

@@ -1,6 +1,7 @@
 # Input/Output
 CSV_FILE = "data.csv"
 JSON_FILE = "data.js"
+TRACKS_VARIABLE_NAME = "tracks"
 
 # Keywords used in the csv file and json
 REQUIRED = "required"
@@ -82,7 +83,7 @@ with open(CSV_FILE, "r") as file:
 
 with open(JSON_FILE, "w+") as json:
 
-    json.write("[")
+    json.write("var "+TRACKS_VARIABLE_NAME+" = [")
 
     for i in range(0, len(rows[0]), 3):
         if i:
