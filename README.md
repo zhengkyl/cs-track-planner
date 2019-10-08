@@ -1,5 +1,5 @@
 # Purdue CS Track Planner
-Purdue has an academically challenged track system created by a room full of fecal-matter-throwing monkeys. That is why I created (am creating) a **simple** website to navigate this excrement-covered trainwreck.
+Purdue has a complicated track system for CS majors. This tool will help determine what classes to take if someone wants to do multiple tracks.
 
 ## Types of courses
     - Required
@@ -7,8 +7,6 @@ Purdue has an academically challenged track system created by a room full of fec
     - Elective
         Classes that don't matter, but do anyways
 ### my madeup terms
-    - Equired
-        Required classes that count as electives
     - Choose
         Groups of courses, where only 1 gives credit
     - Overflow
