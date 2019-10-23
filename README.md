@@ -1,4 +1,7 @@
 # Purdue CS Track Planner
+
+https://zhengkyl.github.io/cs-track-planner/
+
 ## Why does this exist?
 Because Purdue has a complicated track system for CS majors.
 
@@ -6,4 +9,4 @@ For the sake of tracks, a class cannot count for both **REQUIRED** and **ELECTIV
 
 This tool will help determine what classes to take if someone wants to do multiple tracks.
 
-
+## Website Link
