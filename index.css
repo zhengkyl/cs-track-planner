@@ -3,7 +3,22 @@ html, body{
     margin:0;
     font-size: .95em;
 }
+button{
+    background-color: rgb(247, 247, 247);
+    border: 1px solid #9999ff;
+    border-radius: 2px;
+}
+/* button:hover{
+    background-color: rgb(221, 221, 221);
 
+} */
+.toggle{
+    width: 90%;
+    font-size: .75em;
+    /* background-color: rgb(247, 247, 247);
+    border: 1px solid #9999ff;
+    border-radius: 2px; */
+}
 #right-div{
     float: right;
     width: 20%;
@@ -30,27 +45,32 @@ html, body{
 
 .track-column{
     flex: 1;
-    background-color: aquamarine;
+    background-color: #e6e6ff;
     margin: 4px;
     text-align: center;
+    padding: 4px 1px;
 }
 
 .course-type-div{
-    border: 4px solid red;
+    border-radius: 1px;
+    /* border: 4px solid #9999ff; */
     margin: 4px;
+    padding: 2px;
 }
 
 .required-pool{
-    background-color: deepskyblue;
+    background-color: #a5a5ff;
+    margin-bottom: 8px;
 }
 .elective-pool{
-    background-color: violet;
+    background-color: white;
 }
 
 .choose-div{
-    border: 2px solid blue;
+    border-radius: 2px;
+    border: 3px solid #751aff;
     margin: 4px;
-    background-color: beige;
+    background-color: rgb(241, 241, 207);
 }
 
 #left-div{
@@ -72,7 +92,7 @@ html, body{
     background-color: grey;
 }
 .selected-course:hover{
-    background-color: rgb(123, 182, 34);
+    background-color: rgb(160, 231, 53);
 }
 .selected-conflict-course:hover{
     background-color: rgb(97, 97, 97);
@@ -80,15 +100,19 @@ html, body{
 
 
 .hover-course{
-    background-color: yellow;
+    background-color: rgb(252, 240, 77);
 }
 .hover-conflict-course{
-    background-color: red;
+    background-color: rgb(255, 137, 137);
+}
+
+.sidebar-button{
+    margin: 1px;
+}
+.sidebar-button:hover{
+    background-color: rgb(206, 206, 206);
 }
 
 
-.toggle{
-    width: 90%;
-    font-size: .75em;
-}
+
 

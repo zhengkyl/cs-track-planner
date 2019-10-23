@@ -76,7 +76,7 @@ function createCoursesPoolParent(trackPool, style) {
     pool.className = "course-type-div"
     pool.classList.add(style.poolClass)
     const poolTitle = document.createTextNode(style.title)
-    const poolCourseReq = document.createTextNode(trackPool.num)
+    const poolCourseReq = document.createTextNode(" "+trackPool.num)
     pool.appendChild(poolTitle)
     pool.appendChild(poolCourseReq)
 
@@ -166,6 +166,7 @@ function createToggleButton(text, main, alt) {
 function addToSidebar(title, sidebar, main, alt) {
     const button = document.createElement("button")
     button.innerHTML = title
+    button.className = "sidebar-button"
     button.id = title.replace(" ", "-")
     //TODO button event handlers
     sidebar.appendChild(button)
