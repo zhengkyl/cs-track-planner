@@ -9,4 +9,3 @@ For the sake of tracks, a class cannot count for both **REQUIRED** and **ELECTIV
 
 This tool will help determine what classes to take if someone wants to do multiple tracks.
 
-## Website Link
