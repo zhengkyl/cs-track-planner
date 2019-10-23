@@ -515,6 +515,78 @@ var tracks = [
 							title: "Honors Real Analysis I"
 						}
 					]
+				},
+				{
+					type: "none",
+					courses: [
+						{
+							id: "CS 37300",
+							title: "Data Mining and Machine Learning"
+						}
+					]
+				},
+				{
+					type: "none",
+					courses: [
+						{
+							id: "CS 47300",
+							title: "Web Information Search and Management"
+						}
+					]
+				},
+				{
+					type: "none",
+					courses: [
+						{
+							id: "CS 47800",
+							title: "Introduction to Bioinformatics"
+						}
+					]
+				},
+				{
+					type: "none",
+					courses: [
+						{
+							id: "IE 33600",
+							title: "Operations Research - Stochastic Models"
+						}
+					]
+				},
+				{
+					type: "none",
+					courses: [
+						{
+							id: "ECE 30100",
+							title: "Signals and Systems"
+						}
+					]
+				},
+				{
+					type: "none",
+					courses: [
+						{
+							id: "CS 35200",
+							title: "Compilers: Principles and Practice"
+						}
+					]
+				},
+				{
+					type: "none",
+					courses: [
+						{
+							id: "CS 35300",
+							title: "Principles of Concurrency and Parallelism"
+						}
+					]
+				},
+				{
+					type: "none",
+					courses: [
+						{
+							id: "CS 35400",
+							title: "Operating Systems"
+						}
+					]
 				}
 			]
 		}

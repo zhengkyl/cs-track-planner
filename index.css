@@ -1,6 +1,7 @@
 html, body{
     height: 100%;
     margin:0;
+    font-size: .95em;
 }
 
 #right-div{
@@ -11,8 +12,16 @@ html, body{
     height: 100%;
 }
 
+#required-selected{
+    flex: 1;
+    background-color: rgb(189, 239, 255);
+}
+#elective-selected{
+    flex: 1;
+    background-color: rgb(255, 186, 255);
+}
+
 #tracks-div{
-    flex: 2 1 auto;
     margin: 4px;
 
     display: flex;
@@ -44,11 +53,6 @@ html, body{
     background-color: beige;
 }
 
-#course-pool{
-    flex: 3 1 auto;
-    margin: 4px;
-}
-
 #left-div{
     float: left;
     width: 80%;
@@ -57,12 +61,34 @@ html, body{
     height: 100%;
 }
 
-.selected{
+
+
+
+
+.selected-course{
+    background-color: greenyellow;
+}
+.selected-conflict-course{
+    background-color: grey;
+}
+.selected-course:hover{
+    background-color: rgb(123, 182, 34);
+}
+.selected-conflict-course:hover{
+    background-color: rgb(97, 97, 97);
+}
+
+
+.hover-course{
     background-color: yellow;
 }
+.hover-conflict-course{
+    background-color: red;
+}
+
 
 .toggle{
     width: 90%;
-    
+    font-size: .75em;
 }
 
