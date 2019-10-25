@@ -89,13 +89,13 @@ button{
     background-color: greenyellow;
 }
 .selected-conflict-course{
-    background-color: grey;
+    background-color: greenyellow;
 }
 .selected-course:hover{
     background-color: rgb(204, 187, 31);
 }
 .selected-conflict-course:hover{
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(204, 187, 31);
 }
 
 
@@ -103,7 +103,7 @@ button{
     background-color: rgb(252, 240, 77);
 }
 .hover-conflict-course{
-    background-color: rgb(255, 137, 137);
+    background-color: rgb(252, 240, 77);
 }
 
 .sidebar-button{
